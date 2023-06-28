@@ -17,7 +17,7 @@ class HomePage extends StatelessWidget {
       ),
       body: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
         Container(
-          margin: const EdgeInsets.only(top: 10),
+          margin: const EdgeInsets.symmetric(vertical: 10),
           child: Row(
             children: [
               Expanded(
@@ -81,151 +81,213 @@ class HomePage extends StatelessWidget {
               )),
         ),
         Container(
-            padding: const EdgeInsets.all(10),
-            decoration: const BoxDecoration(
-                borderRadius: BorderRadius.all(Radius.circular(10)),
-                color: Colors.amberAccent),
-            child: Column(
-              children: [
-                Row(
-                  children: [
-                    Expanded(
-                      child: Container(
-                        margin: const EdgeInsets.all(10),
-                        decoration: const BoxDecoration(
-                          borderRadius: BorderRadius.all(Radius.circular(10)),
-                          color: Colors.white,
+          padding: const EdgeInsets.all(10),
+          decoration: const BoxDecoration(
+              borderRadius: BorderRadius.vertical(top: Radius.circular(20)),
+              color: Colors.amberAccent),
+          child: Center(
+              child: Column(
+            children: [
+              Row(
+                children: [
+                  Expanded(
+                    child: Container(
+                      margin: const EdgeInsets.all(10),
+                      decoration: const BoxDecoration(
+                        borderRadius: BorderRadius.all(Radius.circular(10)),
+                        color: Colors.white,
+                      ),
+                      child: Expanded(
+                          child: Container(
+                        padding: const EdgeInsets.all(10),
+                        child: const Column(
+                          children: [
+                            Icon(
+                              Icons.access_alarm_outlined,
+                              size: 40,
+                            ),
+                            Text("Sejarah")
+                          ],
                         ),
-                        child: Expanded(
-                            child: Container(
-                          padding: const EdgeInsets.all(10),
-                          child: const Column(
-                            children: [
-                              Icon(
-                                Icons.access_alarm_outlined,
-                                size: 40,
-                              ),
-                              Text("Sejarah")
-                            ],
-                          ),
-                        )),
-                      ),
+                      )),
                     ),
-                    Expanded(
-                      child: Container(
-                        margin: const EdgeInsets.all(10),
-                        color: const Color.fromARGB(255, 23, 133, 79),
-                        child: Expanded(
-                            child: Container(
-                          padding: const EdgeInsets.all(10),
-                          child: const Icon(
-                            Icons.access_alarm_outlined,
-                            size: 40,
-                          ),
-                        )),
+                  ),
+                  Expanded(
+                    child: Container(
+                      margin: const EdgeInsets.all(10),
+                      decoration: const BoxDecoration(
+                        borderRadius: BorderRadius.all(Radius.circular(10)),
+                        color: Colors.white,
                       ),
+                      child: Expanded(
+                          child: Container(
+                        padding: const EdgeInsets.all(10),
+                        child: const Column(
+                          children: [
+                            Icon(
+                              Icons.access_alarm_outlined,
+                              size: 40,
+                            ),
+                            Text("Sejarah")
+                          ],
+                        ),
+                      )),
                     ),
-                    Expanded(
-                      child: Container(
-                        margin: const EdgeInsets.all(10),
-                        color: const Color.fromARGB(255, 23, 133, 79),
-                        child: Expanded(
-                            child: Container(
-                          padding: const EdgeInsets.all(10),
-                          child: const Icon(
-                            Icons.access_alarm_outlined,
-                            size: 40,
-                          ),
-                        )),
+                  ),
+                  Expanded(
+                    child: Container(
+                      margin: const EdgeInsets.all(10),
+                      decoration: const BoxDecoration(
+                        borderRadius: BorderRadius.all(Radius.circular(10)),
+                        color: Colors.white,
                       ),
+                      child: Expanded(
+                          child: Container(
+                        padding: const EdgeInsets.all(10),
+                        child: const Column(
+                          children: [
+                            Icon(
+                              Icons.access_alarm_outlined,
+                              size: 40,
+                            ),
+                            Text("Sejarah")
+                          ],
+                        ),
+                      )),
                     ),
-                    Expanded(
-                      child: Container(
-                        margin: const EdgeInsets.all(10),
-                        color: const Color.fromARGB(255, 23, 133, 79),
-                        child: Expanded(
-                            child: Container(
-                          padding: const EdgeInsets.all(10),
-                          child: const Icon(
-                            Icons.access_alarm_outlined,
-                            size: 40,
-                          ),
-                        )),
+                  ),
+                  Expanded(
+                    child: Container(
+                      margin: const EdgeInsets.all(10),
+                      decoration: const BoxDecoration(
+                        borderRadius: BorderRadius.all(Radius.circular(10)),
+                        color: Colors.white,
                       ),
+                      child: Expanded(
+                          child: Container(
+                        padding: const EdgeInsets.all(10),
+                        child: const Column(
+                          children: [
+                            Icon(
+                              Icons.access_alarm_outlined,
+                              size: 40,
+                            ),
+                            Text("Sejarah")
+                          ],
+                        ),
+                      )),
                     ),
-                  ],
-                ),
-                Row(
-                  children: [
-                    Expanded(
-                      child: Container(
-                        margin: const EdgeInsets.all(10),
-                        color: Colors.purpleAccent,
-                        child: Expanded(
-                            child: Container(
-                          padding: const EdgeInsets.all(10),
-                          child: const Icon(
-                            Icons.access_alarm_outlined,
-                            size: 40,
-                          ),
-                        )),
+                  ),
+                ],
+              ),
+              Row(
+                children: [
+                  Expanded(
+                    child: Container(
+                      margin: const EdgeInsets.all(10),
+                      decoration: const BoxDecoration(
+                        borderRadius: BorderRadius.all(Radius.circular(10)),
+                        color: Colors.white,
                       ),
+                      child: Expanded(
+                          child: Container(
+                        padding: const EdgeInsets.all(10),
+                        child: const Column(
+                          children: [
+                            Icon(
+                              Icons.access_alarm_outlined,
+                              size: 40,
+                            ),
+                            Text("Sejarah")
+                          ],
+                        ),
+                      )),
                     ),
-                    Expanded(
-                      child: Container(
-                        margin: const EdgeInsets.all(10),
-                        color: const Color.fromARGB(255, 23, 133, 79),
-                        child: Expanded(
-                            child: Container(
-                          padding: const EdgeInsets.all(10),
-                          child: const Icon(
-                            Icons.access_alarm_outlined,
-                            size: 40,
-                          ),
-                        )),
+                  ),
+                  Expanded(
+                    child: Container(
+                      margin: const EdgeInsets.all(10),
+                      decoration: const BoxDecoration(
+                        borderRadius: BorderRadius.all(Radius.circular(10)),
+                        color: Colors.white,
                       ),
+                      child: Expanded(
+                          child: Container(
+                        padding: const EdgeInsets.all(10),
+                        child: const Column(
+                          children: [
+                            Icon(
+                              Icons.access_alarm_outlined,
+                              size: 40,
+                            ),
+                            Text("Sejarah")
+                          ],
+                        ),
+                      )),
                     ),
-                    Expanded(
-                      child: Container(
-                        margin: const EdgeInsets.all(10),
-                        color: const Color.fromARGB(255, 23, 133, 79),
-                        child: Expanded(
-                            child: Container(
-                          padding: const EdgeInsets.all(10),
-                          child: const Icon(
-                            Icons.access_alarm_outlined,
-                            size: 40,
-                          ),
-                        )),
+                  ),
+                  Expanded(
+                    child: Container(
+                      margin: const EdgeInsets.all(10),
+                      decoration: const BoxDecoration(
+                        borderRadius: BorderRadius.all(Radius.circular(10)),
+                        color: Colors.white,
                       ),
+                      child: Expanded(
+                          child: Container(
+                        padding: const EdgeInsets.all(10),
+                        child: const Column(
+                          children: [
+                            Icon(
+                              Icons.access_alarm_outlined,
+                              size: 40,
+                            ),
+                            Text("Sejarah")
+                          ],
+                        ),
+                      )),
                     ),
-                    Expanded(
-                      child: Container(
-                        margin: const EdgeInsets.all(10),
-                        color: const Color.fromARGB(255, 23, 133, 79),
-                        child: Expanded(
-                            child: Container(
-                          padding: const EdgeInsets.all(10),
-                          child: const Icon(
-                            Icons.access_alarm_outlined,
-                            size: 40,
-                          ),
-                        )),
+                  ),
+                  Expanded(
+                    child: Container(
+                      margin: const EdgeInsets.all(10),
+                      decoration: const BoxDecoration(
+                        borderRadius: BorderRadius.all(Radius.circular(10)),
+                        color: Colors.white,
                       ),
+                      child: Expanded(
+                          child: Container(
+                        padding: const EdgeInsets.all(10),
+                        child: const Column(
+                          children: [
+                            Icon(
+                              Icons.access_alarm_outlined,
+                              size: 40,
+                            ),
+                            Text("Sejarah")
+                          ],
+                        ),
+                      )),
                     ),
-                  ],
-                ),
-              ],
-            )),
+                  ),
+                ],
+              ),
+            ],
+          )),
+        ),
         Container(
-          color: Colors.blueAccent,
+          margin: const EdgeInsets.only(top: 10, bottom: 10),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Container(
-                margin: const EdgeInsets.only(left: 30),
+                margin: const EdgeInsets.only(left: 30, bottom: 10),
                 color: Colors.limeAccent,
-                child: const Text("Berita Terbaru"),
+                child: const Text("Berita Terbaru",
+                    style: TextStyle(
+                        fontSize:
+                            TextSelectionToolbar.kToolbarContentDistanceBelow,
+                        fontWeight: FontWeight.w600)),
               ),
               Center(
                 child: Container(
